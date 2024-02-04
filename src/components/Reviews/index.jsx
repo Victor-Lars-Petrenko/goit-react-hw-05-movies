@@ -1,1 +1,1 @@
-export { default } from './Revievs';
+export { default } from './Reviews';

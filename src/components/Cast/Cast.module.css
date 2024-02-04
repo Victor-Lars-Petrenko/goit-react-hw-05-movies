@@ -1,0 +1,22 @@
+.castList {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0;
+  gap: 20px;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 4px;
+  background-color: #eee7e7;
+  width: 158px;
+}
+
+.name {
+  margin: 4px;
+  text-align: center;
+}

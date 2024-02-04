@@ -1,9 +1,12 @@
 .commonHeader {
+  position: fixed;
+  z-index: 999;
   display: flex;
   align-items: center;
   gap: 20px;
-  width: 100%;
   height: 48px;
+  background-color: #fff;
+  width: 100%;
   box-shadow: 0px 5px 8px -4px rgba(0, 0, 0, 0.55);
   padding: 0 36px;
 }
@@ -13,8 +16,22 @@
   color: black;
   text-decoration: none;
   display: block;
+  transition: transform 250ms linear;
+}
+
+.headerLink:hover {
+  transform: scale(1.1);
+}
+
+.headerLink:global(.active) {
+  color: red;
 }
 
 .container {
-  padding: 20px;
+  padding-top: 68px;
+}
+
+.loaderWrapper {
+  display: flex;
+  justify-content: center;
 }
