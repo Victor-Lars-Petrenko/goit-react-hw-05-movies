@@ -1,7 +1,7 @@
 import { NavLink, Outlet } from 'react-router-dom';
 import css from './SharedLayout.module.css';
 import { Suspense } from 'react';
-import Loader from 'tools/Loader';
+import Loader from 'tools/Loader/Loader';
 
 export default function SharedLayout() {
   return (

@@ -4,8 +4,8 @@ import { useParams } from 'react-router-dom';
 import { getMovieCast } from 'api/themoviedb';
 import css from './Cast.module.css';
 
-import Loader from 'tools/Loader';
-import Error from 'tools/Error';
+import Loader from 'tools/Loader/Loader';
+import Error from 'tools/Error/Error';
 
 export default function Cast() {
   const { movieId } = useParams();

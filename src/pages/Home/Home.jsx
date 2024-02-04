@@ -3,8 +3,8 @@ import { useEffect, useState } from 'react';
 import { getTrendingFilms } from 'api/themoviedb';
 import MoviesList from 'components/MoviesList';
 
-import Loader from 'tools/Loader';
-import Error from 'tools/Error';
+import Loader from 'tools/Loader/Loader';
+import Error from 'tools/Error/Error';
 
 export default function Home() {
   const [trendingFilms, setTrendingFilms] = useState([]);

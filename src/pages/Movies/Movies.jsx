@@ -7,8 +7,8 @@ import MovieForm from 'components/MovieForm';
 import MoviesList from 'components/MoviesList';
 import { getMovies } from 'api/themoviedb';
 
-import Loader from 'tools/Loader';
-import Error from 'tools/Error';
+import Loader from 'tools/Loader/Loader';
+import Error from 'tools/Error/Error';
 
 export default function Movies() {
   const [searchParams, setSearchParams] = useSearchParams();

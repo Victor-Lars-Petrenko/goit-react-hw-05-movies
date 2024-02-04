@@ -11,8 +11,8 @@ import { getMovieDetails } from 'api/themoviedb';
 import DetailsSection from 'components/DetailsSection';
 import css from './MovieDetails.module.css';
 
-import Loader from 'tools/Loader';
-import Error from 'tools/Error';
+import Loader from 'tools/Loader/Loader';
+import Error from 'tools/Error/Error';
 
 export default function MovieDetails() {
   const { movieId } = useParams();
